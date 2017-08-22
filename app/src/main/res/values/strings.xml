@@ -1,0 +1,137 @@
+<resources>
+    <string name="auth0_client_id">zeCz4YI9I8nAHSZg2q4wnMIExGvENAu4</string>
+    <string name="auth0_domain">chefly.auth0.com</string>
+    <string name="auth0_databaseConnection">Username-Password-Authentication</string>
+    <string name="auth0_api_url">"https://chefly.auth0.com/api/"</string>
+    <string name="webLogin">Login with Facebook</string>
+    <string name="googleLogin">Login with Google</string>
+    <string name="addRemove">Add Remove</string>
+    <string name="addToGroceryList">Add Selected to Grocery List</string>
+    <string name="app_name">Chefly</string>
+    <string name="author">Author</string>
+    <string name="back">Back</string>
+    <string name="bonAppetit">Bon Appetit!</string>
+    <string name="by">by </string>
+    <string name="categoryHint">Italian, French, Dessert, Lunch, Quick, &#8230;</string>
+    <string name="chooseUsername">Create a new username:\n*must be between 4 to 20 characters</string>
+    <string name="clearPurchased">Clear Purchased</string>
+    <string name="contentDescriptionRecipe">A picture of the recipe</string>
+    <string name="continueAsGuest"><u>Skip</u></string>
+    <string name="contactus"><u>Contact Us:</u></string>
+    <string name="webtext"><u>Please provide our feedback to our survey: https://chef-ly.typeform.com/to/LKXdL8</u></string>
+    <string name="emailtext"><u>To report an issue or communicate with as, please send an email to: chef.ly.app@gmail.com</u></string>
+    <string name="continueWithSocial">Continue with social</string>
+    <string name="createPassword">Create a new Password:\n * Must have 8 characters in length\n *At least one digit,symbol,Lower/Upper case letter\n</string>
+    <string name="createPasswordAgain">Please Re-enter password for match confirmation</string>
+    <string name="createRecipe">Create Recipe</string>
+    <string name="difficulty">Difficulty: </string>
+    <string name="directions">Directions</string>
+    <string name="done">Done</string>
+    <string name="dot">&#8226;</string>
+    <string name="edit">Edit</string>
+    <string name="edit_directionView">edit direction step</string>
+    <string name="email">user@email.com</string>
+    <string name="enterUserEmail">Please enter your email</string>
+    <string name="favorite">Favorite</string>
+    <string name="favorites">Favorites</string>
+    <string name="finished">Finished</string>
+    <string name="firstStep">First Step</string>
+    <string name="getCooking">Let\'s get cooking!</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="introImageDescription">Animated GIF showing app usage</string>
+    <string name="level">Difficulty</string>
+    <string name="minutes">Minutes</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="next">Next</string>
+    <string name="noFavorites">No Favorites</string>
+
+    <string name="findrecipes">Find Recipes</string>
+    <string name="searchingredients">Search a recipe based on the ingredients you have. Enter Ingredients separated by comma</string>
+    <string name="search_hint">fish,rice,vegetables</string>
+
+    <string name="of">of</string>
+    <string name="one">1.0</string>
+    <string name="or">Or</string>
+    <string name="password">Password</string>
+    <string name="prev">Prev</string>
+    <string name="qty">Qty</string>
+    <string name="rating">Rating: </string>
+    <string name="recipe_list_activity">RecipeListActivity</string>
+    <string name="recipeCategories">Categories</string>
+    <string name="recipeDescription">Description</string>
+    <string name="recipeImage">Image</string>
+    <string name="recipeImageContentDescription">Image of recipe</string>
+    <string name="recipeName">Recipe Title</string>
+    <string name="recipeNotFound">Recipe Not Found :(</string>
+    <string name="recipes">Recipes</string>
+    <string name="recipeServings">Serves</string>
+    <string name="recipeTime">Cook and Prep Time</string>
+    <string name="registerPageTitle">Register</string>
+    <string name="repeat">Repeat</string>
+    <string name="search">Search</string>
+    <string name="searchHint">Search&#8230;</string>
+    <string name="shoppingList">Shopping List</string>
+    <string name="signIn">Login</string>
+    <string name="signUp"><u>Join for free</u></string>
+    <string name="skip">Skip</string>
+    <string name="forgotpassword"><u>Forgot Password?</u></string>
+    <string name="step">Step</string>
+    <string name="time">Time</string>
+    <string name="unit">Unit</string>
+    <string name="unknown">Unk</string>
+    <string name="updateEmailPassword">Update Username &#0038; Password</string>
+    <string name="user">Lewis Puller</string>
+    <string name="userImage">User Image</string>
+    <string name="useremail">Email</string>
+    <string name="x">X</string>
+    <string name="kws_caption">Say HEY CHEF to get cheflys attention</string>
+    <string name="menu_caption">Say Forward, Back or Question to Chefly</string>
+    <string name="forward_caption">Going to next step</string>
+    <string name="back_caption">Going back to previous</string>
+    <string name="question_caption">Ask chefly a question about what to do next</string>
+    <string name="welcomeback"><u>Welcome Back</u></string>
+
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+
+    <string-array name="unitsOfMeasure">
+        <item>c</item>
+        <item>cup</item>
+        <item>fl oz</item>
+        <item>gram</item>
+        <item>kg</item>
+        <item>kilogram</item>
+        <item>l</item>
+        <item>lb</item>
+        <item>liter</item>
+        <item>milliliter</item>
+        <item>ml</item>
+        <item>ounce</item>
+        <item>oz</item>
+        <item>pint</item>
+        <item>pound</item>
+        <item>pt</item>
+        <item>tablespoon</item>
+        <item>tb</item>
+        <item>tbsp</item>
+        <item>teaspoon</item>
+        <item>tsp</item>
+    </string-array>
+
+    <!-- TODO: For testing interpreter only -->
+    <string name="action_settings_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="auth0_code_challenge_method">S256</string>
+    <string name="auth0_redirect_url">http://chefly-dev.herokuapp.com/*</string>
+    <string name="auth0_scope_readUser">read:user</string>
+
+</resources>

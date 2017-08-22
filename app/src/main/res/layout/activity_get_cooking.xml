@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_get_cooking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context="com.se491.chef_ly.activity.GetCookingActivity">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v4.view.ViewPager>
+
+
+    <TextView
+        android:id="@+id/step"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/exit"
+        android:text="@string/x"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:background="@color/btnGray"
+        android:gravity="center"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <!-- Temp button to show popup functionality -->
+    <Button
+        android:id="@+id/ingredientsBtn"
+        android:text="@string/ingredients"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/btnGray"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- Temp button to show popup functionality -->
+    <Button
+        android:id="@+id/directionsBtn"
+        android:text="@string/directions"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_above="@id/ingredientsBtn"
+        android:layout_alignParentStart="true"
+        android:background="@color/btnGray"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:background="@drawable/chefly"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"/>
+
+</RelativeLayout>

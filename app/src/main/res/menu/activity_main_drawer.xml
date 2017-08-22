@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/batman"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_shopping_list"
+            android:icon="@drawable/shoppinglist"
+            android:title="Shopping List" />
+        <item
+            android:id="@+id/nav_search_ingredients"
+            android:icon="@drawable/search2"
+            android:title="Ingredients Search" />
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/com_auth0_lock_ic_email"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/logout"
+            android:title="Log Out" />
+
+        <!--
+        <item
+            android:id="@+id/nav_create_recipe"
+            android:icon="@drawable/pencil"
+            android:title="Create new recipe" />
+        <item
+            android:id="@+id/nav_import_recipe"
+            android:icon="@drawable/importrecipe"
+            android:title="Import recipe from web" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Share" />
+
+            -->
+    </group>
+
+</menu>

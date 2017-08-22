@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#474959</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="btnBlack">#000000</color>
+    <color name="btnBlue">#007299</color>
+    <color name="btnGray">#837979</color>
+    <color name="btnred">#ff0000</color>
+    <color name="disabledBtn">#965d5d67</color>
+    <color name="disableText">#858383</color>
+    <color name="darkGray">#32323c</color>
+    <color name="lightGray">#837979</color>
+
+    <color name="color_textTitle">#FFFFFF</color>
+    <color name="color_textHeading">#FFFFFF</color>
+    <color name="color_text">#FDFFDF</color>
+    <color name="color_text2">#252523</color>
+    <color name="color_btnText">#FFFFFF</color>
+
+    <color name="background_dark">#6d434343</color>
+    <color name="background_light">#1a7a7a7a</color>
+    <color name="transparent">#00ffffff</color>
+
+    <color name="table_color1">#FDFFDF</color>
+    <color name="table_color2">#dadbcb</color>
+
+    <color name="unselectedDot">#56ffffff</color>
+    <color name="selectedDot">#ffffff</color>
+
+
+    <!-- TODO: For testing interpreter -->
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+</resources>

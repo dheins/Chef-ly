@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.se491.chef_ly">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:name=".application.CheflyApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/auth0_domain"
+                    android:pathPrefix="/android/com.se491.chef_ly/callback"
+                    android:scheme="https" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".RecipeListActivity" />
+        </activity>
+        <activity
+            android:name=".activity.RecipeListActivity"
+            android:label=""
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name=".activity.RecipeDetailActivity" />
+        <activity
+            android:name=".activity.GetCookingActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name=".http.MyService"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.nav_activities.ShoppingListActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activity.nav_activities.UserProfileActivity" />
+        <activity android:name=".activity.nav_activities.SearchIngredients" />
+        <activity android:name=".activity.IntroActivity"
+            android:hardwareAccelerated="false"/>
+        <activity android:name=".activity.nav_activities.ContactUsActivity"/>
+    </application>
+
+</manifest>
